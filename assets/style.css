@@ -1,0 +1,39 @@
+.pswi-search-box {
+    position: relative;
+    max-width: 400px;
+}
+#pswi-search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.pswi-results-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.pswi-results-list li {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.pswi-results-list img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.pswi-results-list .price {
+    margin-left: auto;
+    font-weight: bold;
+    color: #28a745;
+}
+.pswi-results-list li:hover {
+    background: #f7f7f7;
+}
